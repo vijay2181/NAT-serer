@@ -1,7 +1,6 @@
 # NAT-server
 
-![image](https://user-images.githubusercontent.com/66196388/206446374-dfd540bb-dc5c-4585-99b5-ca1a2d62004e.png)
-
+![image](https://user-images.githubusercontent.com/66196388/206446762-b3cf7b31-ab21-4163-9987-92a99111bfdb.png)
 
 
 ## Configuring NAT-server on AWS
