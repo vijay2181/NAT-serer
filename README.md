@@ -42,6 +42,7 @@
 
 ```bash
 - create NAT instance(NAT server)
+- NAT is like a router which allows internet traffic to private devices in the network, it translates private ip to public ip in internet and same public ip to private ip in the private network
 - NAT only allows outbound traffic to internet and it blocks inbound traffic from the internet 
 - NAT instance/NAT gateway always should reside in the public subnet and allow internet traffic for instances in private subnet
 - make use of amazon community ami's - AMI naming = "amzn-ami-vpc-nat"
