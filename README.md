@@ -53,7 +53,10 @@
 - public-subnet(10.0.1.0/24)(AZ-1)
 - auto-assign public-ip enable 
 - and we can also attch elastic ip to this instance
-- enable port 22 and custom ICMP-IPV4 (all) to 0000/0
+- enable port 22 
+  SSH                    TCP         22               0.0.0.0/0
+ - enable ALL ICMP-IPV4 
+  ALL ICMP-IPV4          ICMP        0-65535          0.0.0.0/0
 - this public instance will also not have internet access and we cant even ssh to it
 ```
 
