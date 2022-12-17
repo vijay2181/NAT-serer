@@ -57,6 +57,9 @@
   SSH                    TCP         22               0.0.0.0/0
  - enable ALL ICMP-IPV4 
   ALL ICMP-IPV4          ICMP        0-65535          0.0.0.0/0
+  
+  - you can allow 80 and 443 to update private servers which are behind NAT instance
+  
 - this public instance will also not have internet access and we cant even ssh to it
 ```
 
