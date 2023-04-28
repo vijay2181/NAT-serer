@@ -109,4 +109,5 @@ PING google.com (142.251.33.110) 56(84) bytes of data.
 64 bytes from sea30s10-in-f14.1e100.net (142.251.33.110): icmp_seq=2 ttl=103 time=8.80 ms
 
 so by using NAT-server on public subnet we can acecss internet for isntances inside private subnet
+dot
 ```
